@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_centerInParent="true">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Name"/>
+
+            <TextView
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="roll"/>
+
+            <TextView
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Grade"/>
+
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+</RelativeLayout>
